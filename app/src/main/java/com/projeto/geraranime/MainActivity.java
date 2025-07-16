@@ -46,16 +46,16 @@ public class MainActivity extends AppCompatActivity {
             //e adicionando ao ArrayList imagemList
         }
 
-        //embaralha a lista utilizando a classe collections que fornece metodos
+        //embaralha a lista utilizando a classe collections que fornece métodos
         //estáticos para operar em coleções (listas)
         Collections.shuffle(imagemList);
 
         //busca o componenete imageview da activity_main com o respectivo
         // id associado a variavel para fazer a interação com os componentes
         ImageView botao_activity_main = findViewById(R.id.botao_activity_main);
-        ImageView imageView = findViewById(R.id.imageView); //armazena as imagens anime
+        ImageView imageView = findViewById(R.id.imageView); //armazena as imagens
 
-        //acessa o botao ImageView e seta para clicar e ai o codigo dentro sera executado
+        //acessa o botao ImageView e seta para clicar e o codigo dentro sera executado
         botao_activity_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
